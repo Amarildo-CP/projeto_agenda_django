@@ -21,6 +21,7 @@ from django.urls import path, include
 urlpatterns = [
     path('', include('contact.urls')), # Esse vazio 'home' vai encontrar o outro vazio que esta na urls da app e 
 # Completar o caminho
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls), # Essa é a 'admin' padrão do django (eu posso mudar isso se eu quiser)
+      
 
 ]
